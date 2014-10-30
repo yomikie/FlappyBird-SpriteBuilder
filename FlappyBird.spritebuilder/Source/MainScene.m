@@ -215,7 +215,7 @@ CCParallaxNode *_parallaxBackground;
             }
         }
     }
-    
+    */
     // loop the clouds
     for (CCNode *cloud in _clouds) {
         // get the world position of the cloud
@@ -233,7 +233,6 @@ CCParallaxNode *_parallaxBackground;
             }
         }
     }
-     */
     
     // move and loop the bushes
     for (CCNode *bush in _bushes) {
@@ -248,7 +247,7 @@ CCParallaxNode *_parallaxBackground;
                                 2 * bush.contentSize.width, bush.position.y);
         }
     }
-    
+    /*
     // move and loop the clouds
     for (CCNode *cloud in _clouds) {
         // move the cloud
@@ -263,6 +262,7 @@ CCParallaxNode *_parallaxBackground;
         }
      
     }
+     */
     
     NSMutableArray *offScreenObstacles = nil;
     
