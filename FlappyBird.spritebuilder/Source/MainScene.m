@@ -195,7 +195,7 @@ CCParallaxNode *_parallaxBackground;
     }
     
     
-    
+    /*
     _parallaxBackground.position = ccp(_parallaxBackground.position.x - (character.physicsBody.velocity.x * delta), _parallaxBackground.position.y);
     
     // loop the bushes
@@ -233,7 +233,8 @@ CCParallaxNode *_parallaxBackground;
             }
         }
     }
-    /*
+     */
+    
     // move and loop the bushes
     for (CCNode *bush in _bushes) {
         // move the bush
@@ -260,7 +261,7 @@ CCParallaxNode *_parallaxBackground;
             cloud.position = ccp(cloud.position.x +
                                  2 * cloud.contentSize.width, cloud.position.y);
         }
-     */
+     
     }
     
     NSMutableArray *offScreenObstacles = nil;
